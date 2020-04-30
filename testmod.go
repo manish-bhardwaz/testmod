@@ -2,7 +2,7 @@ package testmod
 
 import "fmt"
 
-// Print prints the initial version message
-func Print() {
-	fmt.Println("initial version modified")
+// Print prints the formatted salutation message
+func Print(salutation, name string) {
+	fmt.Printf("%s, %s", salutation, name)
 }
